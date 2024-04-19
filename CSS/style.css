@@ -1,0 +1,292 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background-image: url(../img/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 100vh;
+    background-repeat: none;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    box-shadow: inset 4px 40px 30px rgb(7, 12, 0);
+}
+
+.container .cox {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+}
+
+nav {
+    max-width: 76vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    height: 80px;
+}
+nav img{
+    height: 41px;
+}
+nav span {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.box {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    height: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.box> :first-child {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    height: 56px;
+}
+
+.box> :nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    height: 30px;
+    font-size: 25px;
+}
+
+.box> :nth-child(3) {
+    font-size: 1.0rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 22px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 7px 21px 7px 30px;
+    border-radius: 4px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgb(23, 23, 23, 0.2);
+    border: 1px solid rgb(234, 228, 228, 0.2);
+}
+
+.btn-red {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 7px;
+    padding: 6px 15px;
+    font-size: 14px;
+    margin: auto;
+}
+
+.btn-red-btn {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 0p 101px 40px 10px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.container input {
+    border-radius: 5px;
+    padding: 8px 121px 8px 14px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(23, 23, 23, 0.2);
+    border: 1px solid rgb(234, 228, 228, 0.2);
+}
+
+.line {
+    height: 11px;
+    background-color: rgb(35, 35, 35);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 100 vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.classimg {
+    width: 555px;
+    height: auto;
+    position: relative ;
+    top: 0;
+}
+
+.classimg img {
+    width: 445px;
+    height: 45vh;
+    position: relative; 
+    z-index: 10;
+}
+
+.classimg video {
+    position: absolute;
+    top: 75px;
+    /* size: a4; */
+    right: 0px;
+    width: 111%;
+    height: 167px;
+}
+.write{
+    gap: 10px;
+    width: 532px;
+}
+ h1{
+    font-size: 50px;
+}
+.first span{
+    font-size: 22px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(234, 228, 228, 0.2);
+    border-radius: 6px;
+    height: 90px;
+    width: 25vw;
+    margin: auto;
+    left: 50%;
+    bottom: 8%;
+}
+.para img{
+    height: 60px;
+    width: 55px;
+}
+.para video{
+    height: 90px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.question{
+    font-size: 48px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 26px;
+}
+.question1{
+    transition: all 1s ease-out;
+    background-color: rgb(35, 35, 35);;
+    max-width: 60vw;
+    margin: auto;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.line2 {
+    height: 11px;
+    background-color: black
+}
+.box3{
+    color: white;
+}
+.question1:hover{
+    background-color: rgb(69, 68, 68);
+}
+.last{
+    font-size: 1.0rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 22px;
+    padding: 35px;
+}
+.oxo2{
+    background-color: rgb(7, 7, 7);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 0p 101px 40px 10px;
+    font-size: 56px;
+    text-align: center;
+}
+.last input{
+    padding: 8px 121px 17px 14px ;
+}
+.last button{
+    padding: 8px 121px 17px 14px 
+}
+.foot{
+    background-color: black;
+}
+footer{
+    background-color: black;
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    padding: 34px;
+}
+.span{
+    padding: 34px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer a{ 
+    color: white;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
